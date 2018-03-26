@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+
+    <item android:id="@+id/shuffleplayer"
+        android:title="ShufflePlayer!"
+        android:icon="@drawable/ic_shuf_24dp"/>
+    <item android:id="@+id/songs"
+        android:title="Songs"
+        android:icon="@drawable/ic_library_music_black_24dp"/>
+    <item android:id="@+id/playlists"
+        android:title="Playlists"
+        android:icon="@drawable/ic_list_black_24dp"/>
+    <item android:id="@+id/backup"
+        android:title="Backup"
+        android:icon="@drawable/ic_backup_black_24dp"/>
+    <item android:id="@+id/sync"
+        android:title="Sync"
+        android:icon="@drawable/ic_sync_black_24dp"/>
+    <item android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    <item android:id="@+id/cloudplay"
+        android:title="CloudPlay"
+        android:icon="@drawable/ic_launcher"/>
+
+
+</menu>

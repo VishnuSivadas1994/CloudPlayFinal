@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "564503585793",
+    "firebase_url": "https://cloudplayfinal.firebaseio.com",
+    "project_id": "cloudplayfinal",
+    "storage_bucket": "cloudplayfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564503585793:android:f1bb95c4403583aa",
+        "android_client_info": {
+          "package_name": "com.vi.cloudplayfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564503585793-abl46thgc2u9covrnb1vmac5phv9sgu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vi.cloudplayfinal",
+            "certificate_hash": "e8937f977d60148c38cb5ffd9a0e231806d90693"
+          }
+        },
+        {
+          "client_id": "564503585793-qnvtvmge63ne5irhfvdbe5bgiosjq3ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvy0O3S8Nkokl9A-eUxoxLlkg2Vzd04AI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564503585793-qnvtvmge63ne5irhfvdbe5bgiosjq3ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
