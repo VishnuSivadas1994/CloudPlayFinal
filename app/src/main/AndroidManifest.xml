@@ -30,7 +30,7 @@
         <activity android:name=".CloudStorageHandler" />
         <activity android:name=".SyncFromCloud" />
         <activity android:name=".MusicPlayer" />
-        <activity android:name=".MusicPlayerExtra"></activity>
+        <activity android:name=".MusicPlayerExtra" />
     </application>
 
 </manifest>
