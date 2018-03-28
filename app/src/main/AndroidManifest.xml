@@ -31,6 +31,7 @@
         <activity android:name=".SyncFromCloud" />
         <activity android:name=".MusicPlayer" />
         <activity android:name=".MusicPlayerExtra" />
+        <activity android:name=".Team"></activity>
     </application>
 
 </manifest>

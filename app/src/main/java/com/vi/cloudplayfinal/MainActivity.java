@@ -123,6 +123,8 @@ public class MainActivity extends AppCompatActivity /*implements PopupMenu.OnMen
                         break;
                     case (R.id.cloudplay):
                         Toast.makeText(getApplicationContext(), "Toast Messages Are Annoying!!!", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),Team.class));
+
 
                         break;
 
