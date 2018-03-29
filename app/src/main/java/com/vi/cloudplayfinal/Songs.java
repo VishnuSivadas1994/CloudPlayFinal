@@ -72,13 +72,7 @@ public class Songs extends AppCompatActivity {
         }));
 
         loadMusic();
-        if (nameV.size()<30) {
-            Toast.makeText(getApplicationContext(), "This is the Worst song collection EVER!!!", Toast.LENGTH_SHORT).show();
-        }
-        else {
-            Toast.makeText(getApplicationContext(), "Ggrrreeeaaaaatttt!!!", Toast.LENGTH_SHORT).show();
 
-        }
     }
     class RecyclerTouchListener implements RecyclerView.OnItemTouchListener{
 
@@ -151,6 +145,13 @@ public class Songs extends AppCompatActivity {
             }
             cursor.close();
             musicAdapter=new MusicAdapter(this,music);
+            if (nameV.size()<30) {
+                Toast.makeText(getApplicationContext(), "This is the Worst song collection EVER!!!", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Toast.makeText(getApplicationContext(), "Ggrrreeeaaaaatttt!!!", Toast.LENGTH_SHORT).show();
+
+            }
         }
 
 
