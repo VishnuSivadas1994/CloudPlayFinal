@@ -24,6 +24,7 @@ public class Songs extends AppCompatActivity {
     RecyclerView recyclerView;
     MusicAdapter musicAdapter;
 
+
     static ArrayList<String> nameV = new ArrayList<String>();
     static ArrayList<String> artistV = new ArrayList<String>();
     static ArrayList<String> uriV = new ArrayList<String>();
@@ -45,13 +46,7 @@ public class Songs extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.addItemDecoration(dividerItemDecoration);
         recyclerView.scrollToPosition(music.size()-1);
-        if (nameV.size()<30) {
-            Toast.makeText(getApplicationContext(), "This is the Worst song collection EVER!!!", Toast.LENGTH_SHORT).show();
-        }
-        else {
-            Toast.makeText(getApplicationContext(), "Ggrrreeeaaaaatttt!!!", Toast.LENGTH_SHORT).show();
 
-        }
 
 
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(this,
@@ -77,6 +72,13 @@ public class Songs extends AppCompatActivity {
         }));
 
         loadMusic();
+        if (nameV.size()<30) {
+            Toast.makeText(getApplicationContext(), "This is the Worst song collection EVER!!!", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Toast.makeText(getApplicationContext(), "Ggrrreeeaaaaatttt!!!", Toast.LENGTH_SHORT).show();
+
+        }
     }
     class RecyclerTouchListener implements RecyclerView.OnItemTouchListener{
 
